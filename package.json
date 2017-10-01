@@ -1,0 +1,17 @@
+{
+  "name": "spcygo1",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "install-custom": "npm install --sass-binary-site=https://npm.taobao.org/mirrors/node-sass/ --registry=http://registry.cnpmjs.org --verbose",
+    "build-dev": "ng build --dev --env=dev --watch --output-hash=all",
+    "build-test": "ng build --prod --env=test",
+    "build-prod": "ng build --prod --env=prod"
+  },
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "latest"
+  },
+  "devDependencies": {}
+}

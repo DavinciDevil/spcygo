@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spcygo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spcygo.war">
+      <element id="artifact" artifact-name="spcygo:war exploded" />
+    </root>
+  </artifact>
+</component>
