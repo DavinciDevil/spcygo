@@ -1,0 +1,22 @@
+{
+  "name": "ygospc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+	"jquery":"latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install",
+    "install-custom": "npm install --sass-binary-site=https://npm.taobao.org/mirrors/node-sass/ --registry=http://registry.cnpmjs.org --verbose",
+    "build-dev": "ng build --dev --env=dev --watch --output-hash=all",
+    "build-test": "ng build --prod --env=test",
+    "build-prod": "ng build --prod --env=prod"
+  },
+
+  "author": "spc",
+  "license": "ISC"
+}
